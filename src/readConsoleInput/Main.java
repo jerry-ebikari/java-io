@@ -33,6 +33,7 @@ public class Main {
             getDataType(input);
             System.out.print("\n" + prompt);
         }
+        console.flush();
     }
 
     static void readConsoleDataWithBufferedReader() {
